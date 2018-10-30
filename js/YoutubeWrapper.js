@@ -162,7 +162,7 @@ YoutubeWrapper.prototype.playerStateChangeEvent_ = function() {
 		stateEvent.data = this.ytPlayer.getVideoData();
 		stateEvent.data.videoProgress = this.getVideoProgress();
 		stateEvent.data.videoLength = this.getVideoLength();
-		stateEvent.data.image = "http://img.youtube.com/vi/" +
+		stateEvent.data.image = "https://img.youtube.com/vi/" +
 			stateEvent.data.video_id + "/0.jpg";
 
 		// Set time update interval
